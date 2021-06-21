@@ -8,31 +8,45 @@
 body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
-  padding: 401px;
+  padding: 163px 401px;
   font-weight: 400;
   background-color: var(--Light-Gray);
+  margin: 0px;
 }
 
 .container {
   display: grid;
   row-gap: 0;
   column-gap: 0;
-  grid-template-rows: 225px 261px;
+  grid-template-rows: 222px 261px;
 }
 
 .row-one {
+  width: 638px;
+  height: 224px;
+  margin: 0px 170px;
+  background-color: white;
+  position: relative;
 }
 
 .row-one_title {
   color: var(--Cyan);
+  padding: 28px 45px 14px 45px;
+  margin: 0px;
+  font-size: 24px;
 }
 
 .row-one_subtitle {
   color: var(--Bright-Yellow);
+  padding: 14px 45px 18px 45px;
+  margin: 0px;
+  font-size: 18px;
 }
 
 .row-one_excerpt {
   color: var(--Grayish-Blue);
+  padding: 18px 45px 33px 45px;
+  margin: 0px;
 }
 
 .row-two {
@@ -47,10 +61,14 @@ body {
 
 .row-two_firstcolumn {
   background-color: var(--Cyan);
+  width: 319px;
+  height: 256px;
 }
 
 .row-two_secondcolumn {
   background-color: var(--Grayish-Blue);
+  width: 319px;
+  height: 256px;
 }
 
 .row-two_firstcolumn__title {

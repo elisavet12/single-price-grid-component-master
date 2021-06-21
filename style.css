@@ -72,15 +72,40 @@ body {
 }
 
 .row-two_firstcolumn__title {
+  padding: 28px 45px 14px 45px;
+  margin: 0px;
+  font-size: 18px;
 }
 
 .row-two_firstcolumn__price {
+  padding: 14px 45px 18px 45px;
+  margin: 0px;
+  font-size: 32px;
 }
 
 .row-two_firstcolumn__text {
+  padding: 18px 45px 33px 45px;
+  margin: 0px;
+  font-size: 16px;
 }
 
 button {
   background-color: var(--Bright-Yellow);
   color: var(--Light-Gray);
+  margin: 0px;
+
+  border-style: none;
+}
+
+.row-two_secondcolumn_title {
+  padding: 28px 45px 10px 45px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.row-two_secondcolumn_list {
+  padding: 12px 65px 41px 45px;
+  margin: 0px;
+  list-style: none;
+  font-size: 14px;
 }

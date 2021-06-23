@@ -59,9 +59,6 @@ body {
   color: var(--Light-Gray);
 }
 
-.column {
-}
-
 .row-two_firstcolumn {
   background-color: var(--Cyan);
   width: 319px;
@@ -70,7 +67,7 @@ body {
 }
 
 .row-two_secondcolumn {
-  background-color: var(--Grayish-Blue);
+  background-color: var(--Cyan);
   width: 319px;
   height: 256px;
   border-radius: 0px 0px 9px 0px;
@@ -89,7 +86,7 @@ body {
 }
 
 .row-two_firstcolumn__text {
-  padding: 18px 45px 33px 45px;
+  padding: 18px 24px 29px 45px;
   margin: 0px;
   font-size: 16px;
 }
@@ -97,12 +94,12 @@ body {
 button {
   background-color: var(--Bright-Yellow);
   color: var(--Light-Gray);
-  margin: 0px;
+  margin: 29px;
   border-style: none;
   width: 238px;
   height: 48px;
   position: relative;
-  left: 45px;
+  left: 17px;
   border-radius: 6px;
   font-weight: 700;
   display: block;
@@ -123,9 +120,32 @@ button {
 
 @media only screen and (max-width: 1024px) {
   .row-one {
-    width: 50%;
+    display: grid;
+    width: 319px;
+    height: 277px;
+    position: inherit;
   }
-  .column {
-    width: 50%;
+  .row-two {
+    display: flex;
+    flex-direction: column;
+    
   }
+
+  .container {
+    display: block;
+    
+  }
+
+  .row-two_secondcolumn {
+    border-radius: 0px 0px 9px 9px;
+  }
+
+  .row-two_firstcolumn {
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  body {-ms-overflow-style: none;}
+  }
+
+
 }

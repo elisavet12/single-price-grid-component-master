@@ -71,6 +71,7 @@ body {
   width: 319px;
   height: 256px;
   border-radius: 0px 0px 9px 0px;
+  opacity: 0.8;
 }
 
 .row-two_firstcolumn__title {

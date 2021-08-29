@@ -8,27 +8,23 @@
 body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
-  padding: 163px 401px;
+
   font-weight: 400;
   background-color: var(--Light-Gray);
-  margin: 0px;
-  display: inline-block;
+  margin: 0px auto;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 .container {
   display: grid;
-  row-gap: 0;
-  column-gap: 0;
-  grid-template-rows: 222px 261px;
+  grid-template-rows: auto;
   border-radius: 9px;
+  padding: 0px 400px;
 }
 
 .row-one {
-  width: 638px;
-  height: 224px;
-  margin: 0px 170px;
   background-color: white;
-  position: relative;
   border-radius: 9px 9px 0px 0px;
 }
 
@@ -53,23 +49,21 @@ body {
 }
 
 .row-two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   color: var(--Light-Gray);
 }
 
 .row-two_firstcolumn {
   background-color: var(--Cyan);
-  width: 319px;
-  height: 256px;
+
   border-radius: 0px 0px 0px 9px;
 }
 
 .row-two_secondcolumn {
   background-color: var(--Cyan);
-  width: 319px;
-  height: 256px;
+
   border-radius: 0px 0px 9px 0px;
   opacity: 0.8;
 }
@@ -97,7 +91,7 @@ button {
   color: var(--Light-Gray);
   margin: 29px;
   border-style: none;
-  width: 238px;
+  padding: 0px 90px;
   height: 48px;
   position: relative;
   left: 17px;
@@ -122,19 +116,16 @@ button {
 @media only screen and (max-width: 1024px) {
   .row-one {
     display: grid;
-    width: 319px;
-    height: 277px;
+
     position: inherit;
   }
   .row-two {
     display: flex;
     flex-direction: column;
-    
   }
 
   .container {
     display: block;
-    
   }
 
   .row-two_secondcolumn {
@@ -145,8 +136,7 @@ button {
     border-radius: 0px 0px 0px 0px;
   }
 
-  body {-ms-overflow-style: none;}
+  body {
+    -ms-overflow-style: none;
   }
-
-
 }

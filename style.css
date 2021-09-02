@@ -20,7 +20,8 @@ body {
   display: grid;
   grid-template-rows: auto;
   border-radius: 9px;
-  padding: 0px 400px;
+  padding: 50px 400px;
+  place-content: center;
 }
 
 .row-one {
@@ -46,6 +47,8 @@ body {
   color: var(--Grayish-Blue);
   padding: 18px 45px 33px 45px;
   margin: 0px;
+  width: 58ch;
+  line-height: 1.5;
 }
 
 .row-two {
@@ -80,6 +83,20 @@ body {
   font-size: 32px;
 }
 
+.row-two-price-info {
+  display: flex;
+  gap: 15px;
+  padding: 24px 45px 12px 45px;
+}
+
+.row-two_price {
+  margin: 0px;
+}
+
+.row-two-price2 {
+  margin: 0px;
+}
+
 .row-two_firstcolumn__text {
   padding: 18px 24px 29px 45px;
   margin: 0px;
@@ -93,11 +110,11 @@ button {
   border-style: none;
   padding: 0px 90px;
   height: 48px;
-  position: relative;
-  left: 17px;
+
   border-radius: 6px;
   font-weight: 700;
-  display: block;
+
+  margin: 0px;
 }
 
 .row-two_secondcolumn_title {
